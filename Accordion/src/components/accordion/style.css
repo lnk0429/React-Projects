@@ -1,0 +1,25 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.accordion {
+  width: 800px;
+  height: auto;
+  background-color: rgb(12, 130, 38);
+  padding: 20px 0;
+}
+
+.content {
+  padding: 10px 30px;
+  font-size: 16px;
+}
+
+.title {
+  cursor: pointer;
+}
